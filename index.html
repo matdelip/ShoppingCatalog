@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Shopping Catalog</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="container">
+  <h1>Shopping Catalog</h1>
+  <table id="productTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Model</th>
+        <th>Cost</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Inventory items will be inserted here by Javascript -->
+    </tbody>
+  </table>
+  <div class="add-product-form">
+    <h2> Add New Product </h2>
+    <input type="text" id="productName" placeholder="Product Name">
+    <input type="text" id="productModel" placeholder="Product Model">
+    <input type="number" id="productCost" placeholder="Product Cost">
+    <input type="number" id="productQuantity" placeholder="Product Quantity">
+    </div>
+    <button id="addProductButton">Add Product</button>
+</div>
+
+
+  
+<script src="script.js"></script>
+</body>
+
+</html>
